@@ -34,4 +34,4 @@ Status monitoring. Enable some uptime-monitoring service such as UptimeRobot to 
 
 Note that in response to this error, I wrote a Puppet manifest 0-strace_is_your_friend.pp to automate fixing of any such identitical errors should they occur in the future. The manifest replaces any phpp extensions in the file /var/www/html/wp-settings.php with php.
 
-But of course, it will never occur again, because we're programmers, and we never make errors! 😉
+But of course, it will never occur again, because we're programmers, and we never make errors!
