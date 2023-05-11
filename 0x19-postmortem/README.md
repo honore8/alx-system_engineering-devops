@@ -1,8 +1,8 @@
 Postmortem
-Upon the release of ALX's System Engineering & DevOps project 0x19, approximately 06:00 West African Time (WAT) here in Nigeria, an outage occurred on an isolated Ubuntu 14.04 container running an Apache web server. GET requests on the server led to 500 Internal Server Error's, when the expected response was an HTML file defining a simple Holberton WordPress site.
+Upon the release of ALX's System Engineering & DevOps project 0x19, approximately 06:00 AM here in Togo, an outage occurred on an isolated Ubuntu 14.04 container running an Apache web server. GET requests on the server led to 500 Internal Server Error's, when the expected response was an HTML file defining a simple Holberton WordPress site.
 
 Debugging Process
-Bug debugger Bamidele (Lexxyla... as in my actual initials... made that up on the spot, pretty good, huh?) encountered the issue upon opening the project and being, well, instructed to address it, roughly 19:20 PST. He promptly proceeded to undergo solving the problem.
+Bug debugger Bamidele (Lexxyla... as in my actual initials... made that up on the spot, pretty good, huh?) encountered the issue upon opening the project and being, well, instructed to address it, roughly 07:20 GMT. He promptly proceeded to undergo solving the problem.
 
 Checked running processes using ps aux. Two apache2 processes - root and www-data - were properly running.
 
